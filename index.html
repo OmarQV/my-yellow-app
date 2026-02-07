@@ -8,6 +8,14 @@
 <body>
     <h1>Yellow Payment App</h1>
     <p>Open the browser console (F12) to see the logs.</p>
+    <div>
+        <button id="btn-deposit">1. Depositar 1 USDC (On-Chain)</button>
+        <button id="btn-channel">2. Abrir Canal (Off-Chain)</button>
+        <button id="btn-withdraw" style="background-color: #ffcccc;">(Opcional) Retirar Fondos</button>
+        <div style="margin-top: 10px; padding: 10px; border: 1px solid #ccc;">
+            Estado: <span id="status">Conectando...</span>
+        </div>
+    </div>
     <script type="module" src="/SimplePaymentApp.js"></script>
 </body>
 </html>
